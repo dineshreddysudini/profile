@@ -16,8 +16,8 @@ const HeroSection: React.FC = () => {
           frontend, performance, and pixel perfection.
         </p>
       </div>
-      <div className="hero-image">
-        <img src={profilePic} alt="Dinesh Sudini" />
+      <div className="hero-profile-image">
+        <img src={require("../Assets/my2.jpg")} alt="Dinesh Sudini" />
       </div>
     </section>
   );
