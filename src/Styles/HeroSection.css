@@ -1,0 +1,40 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+}
+
+.hero-content {
+  max-width: 60%;
+}
+
+.hero-content h4 {
+  color: #aaa;
+  letter-spacing: 1.5px;
+  margin-bottom: 1rem;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.hero-content .highlight {
+  color: #ff4a57;
+}
+
+.hero-content p {
+  margin-top: 1rem;
+  color: #ccc;
+  font-size: 1rem;
+  max-width: 600px;
+}
+
+.hero-image img {
+  max-width: 320px;
+  border-radius: 12px;
+}
