@@ -5,11 +5,13 @@
   background-color: #1e1e1e;
   color: white;
   padding: 4rem 2rem;
+  flex-wrap: wrap;
   min-height: 100vh;
 }
 
 .hero-content {
-  max-width: 60%;
+  flex: 1 1 60%;
+  padding: 1rem;
 }
 
 .hero-content h4 {
@@ -19,8 +21,8 @@
 }
 
 .hero-content h1 {
-  font-size: 3rem;
-  line-height: 1.2;
+  font-size: 2.5rem;
+  line-height: 1.3;
 }
 
 .hero-content .highlight {
@@ -34,7 +36,31 @@
   max-width: 600px;
 }
 
+.hero-image {
+  flex: 1 1 35%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
 .hero-image img {
-  max-width: 320px;
+  max-width: 300px;
   border-radius: 12px;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-image img {
+    max-width: 200px;
+    margin-top: 2rem;
+  }
 }

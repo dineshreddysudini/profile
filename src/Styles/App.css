@@ -1,24 +1,12 @@
-.App {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
-  background-color: #fefefe;
-}
-
-h1 {
-  margin-bottom: 0;
-}
-
-header,
-section,
-footer {
-  margin-bottom: 2rem;
+  background-color: #1e1e1e;
+  color: white;
 }
 
 a {
-  color: #007acc;
+  color: #ff4a57;
   text-decoration: none;
 }
 
